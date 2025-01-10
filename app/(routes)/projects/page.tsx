@@ -68,7 +68,7 @@ const Carousel = () => {
         />
       </div>
       {/* Indicadores del carrusel */}
-      <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3">
+      {/* <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3">
         {images.map((_, index) => (
           <button
             key={index}
@@ -79,7 +79,7 @@ const Carousel = () => {
             onClick={() => setCurrentIndex(index)}
           ></button>
         ))}
-      </div>
+      </div> */}
       {/* Controles del carrusel */}
       <button
         type="button"
